@@ -1,0 +1,128 @@
+@media screen  and (max-width:834px){
+    .navbar-item{
+        display:none;
+    }
+    .navbar{
+        height: 80px
+    }
+    .logo{
+        height: 80%;
+        margin-left: -50px;
+    }
+}
+
+
+@media screen  and (min-width:834px){
+    .dropdown {
+        display:none;
+    }
+}
+
+
+
+/*--------------- for phone------------- */
+@media screen  and (max-width:767px){
+    .navbar{
+        height: 60px;
+    }
+    .section1{
+        flex-direction: column;
+        align-items:flex-start;
+        padding-bottom: 2.3rem;
+
+    }
+    .intro{
+        width: 100%;
+        padding-left: 2.5rem;
+        padding-top: 7rem;
+      }
+      .name{
+        font-size: 48px;
+
+      }
+      .blink{
+        font-size: 20px;
+      }
+      button{
+        font-size: 15px;
+      }
+      .social-icon-li{
+        height: 2.5rem;
+        width: 2.5rem;
+      }
+      .social-icon i{
+        font-size: 1.3rem;
+        padding-top: 0.66rem;
+        margin-left: 0.66rem;
+      }
+      .photo img{
+        height: 12rem;
+        border-radius: 50%;
+        margin-left: 5.5rem;
+        margin-top: -8.4rem;
+        
+      }
+
+}
+
+/* for section2 */
+@media screen  and (max-width:767px){
+    h2{
+        margin-left: 7rem;
+        font-size: 30px;
+        font-weight: bold;
+       }
+       
+       .card{
+        height: 50%;
+        width: 220px;
+        background-color: rgb(114, 82, 255);
+        margin-top: 1.5rem;
+        margin-left: 4rem;
+        border-radius: 12px;
+      }
+       
+       .section2{
+        flex-direction: column;
+        margin-bottom: 4rem;
+       }
+       .sec2-part2{
+        padding-left: 2rem;
+        margin-right: 2rem;
+        margin-top: -16rem;
+        
+      }
+      .sec2-part2 h2{
+        font-size: 35px;
+
+      }
+      .sec2-part2 h4{
+        margin-bottom: 0.5rem;
+        color: rgb(2, 2, 51);
+        
+      
+      }
+      .sec2-part2 p{
+        font-size: 14px;
+        font-family:serif;
+        margin-bottom: 0.5rem;
+      
+      }
+      .sec2-part2 h5{
+        font-size: 14px;
+        margin-bottom: 0.2rem;
+      }
+      .section3{
+        padding: 2rem ;
+
+      }
+
+
+}
+
+
+
+
+@media screen  and (max-width:767px){
+  
+}
